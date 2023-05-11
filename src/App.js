@@ -4,7 +4,7 @@ import { withAuthenticator } from '@aws-amplify/ui-react';
 
 import awsconfig from './aws-exports';
 
-API.configure(awsconfig);
+
 
 async function getIdToken() {
   const currentUser = await Auth.currentAuthenticatedUser();
