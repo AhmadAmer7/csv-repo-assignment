@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-csvdonotdelet-dev-133535-authRole",
+      "UnauthRoleArn": "arn:aws:iam::376353728436:role/amplify-csvdonotdelet-dev-133535-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::376353728436:role/amplify-csvdonotdelet-dev-133535-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-csvdonotdelet-dev-133535-deployment",
+      "UnauthRoleName": "amplify-csvdonotdelet-dev-133535-unauthRole",
+      "StackName": "amplify-csvdonotdelet-dev-133535",
+      "StackId": "arn:aws:cloudformation:us-east-1:376353728436:stack/amplify-csvdonotdelet-dev-133535/7513ad80-ed94-11ed-b688-0a8450f38057",
+      "AmplifyAppId": "dmqoozb4gnyey"
+    },
+    "categories": {
+      "auth": {
+        "csvdonotdeletad240834": {}
+      }
+    }
+  }
+}
