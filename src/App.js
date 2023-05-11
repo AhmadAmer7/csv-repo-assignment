@@ -19,7 +19,13 @@ function FileList() {
 
   async function fetchFiles() {
     try {
-      const response = await API.get('Ahmad-API', '/files');
+      const idToken = await getIdToken();
+      const myInit = {
+        headers: {
+          Authorization: idToken,
+        },
+      };
+      const response = await API.get('Ahmad-API', '/files', myInit);
       const body = JSON.parse(response.body);
       const fileList = Array.isArray(body) ? body : body.files;
       console.log('Files retrieved:', fileList);
